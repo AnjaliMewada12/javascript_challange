@@ -1,11 +1,12 @@
-.container-1{
+.container-1,.container-2{
     border: 1px solid blue;   
     padding: 4px;
     margin:0 auto;
     text-align: center;
+    width:75%;
 }
 
-.flex-box-container-1{
+.flex-box-container-1, .flex-box-container-2{
     display: flex;
     border:1px solid blue;
     padding: 10px;
@@ -19,4 +20,9 @@
     padding:10px;
     border:1px solid blue;
     align-items: center;
+}
+
+.flex-box-container-2 img{
+    box-shadow: -30px 13px 14px -12px rgba(18,3,18,1);
+    margin:10px;
 }
